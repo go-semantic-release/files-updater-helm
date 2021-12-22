@@ -33,7 +33,10 @@ func (u *Updater) Apply(file, newVersion string) error {
 
 	metadata.Version = newVersion
 
-	helmutils.SaveChartfile(file, metadata)
+	if err := helmutils.SaveChartfile(file, metadata); err == nil {
+		return err
+	}
+
 
 	return nil
 }
