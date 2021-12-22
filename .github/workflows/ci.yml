@@ -24,7 +24,7 @@ jobs:
       - uses: actions/setup-go@v2
         with:
           go-version: 1.17
-      - run: go build ./cmd/files-updater-files/
+      - run: go build ./cmd/files-updater-helm/
       - run: go test -v ./...
   release:
     runs-on: ubuntu-latest
