@@ -1,4 +1,4 @@
-module git.shivering-isles.com/sheogorath/files-updater-helm
+module github.com/go-semantic-release/files-updater-helm
 
 go 1.16
 

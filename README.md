@@ -1,6 +1,6 @@
 # :open_file_folder: files-updater-helm
-[![Go Report Card](https://goreportcard.com/badge/git.shivering-isles.com/sheogorath/files-updater-helm)](https://goreportcard.com/report/git.shivering-isles.com/sheogorath/files-updater-helm)
-[![PkgGoDev](https://pkg.go.dev/badge/git.shivering-isles.com/sheogorath/files-updater-helm)](https://pkg.go.dev/git.shivering-isles.com/sheogorath/files-updater-helm)
+[![Go Report Card](https://goreportcard.com/badge/github.com/go-semantic-release/files-updater-helm)](https://goreportcard.com/report/github.com/go-semantic-release/files-updater-helm)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/go-semantic-release/files-updater-helm)](https://pkg.go.dev/github.com/go-semantic-release/files-updater-helm)
 
 The helm chart files updater for [go-semantic-release](https://github.com/go-semantic-release/semantic-release).
 
