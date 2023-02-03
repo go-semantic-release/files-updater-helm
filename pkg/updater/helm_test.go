@@ -31,7 +31,8 @@ func TestHelmUpdaterAppVersion(t *testing.T) {
 	conf := map[string]string{
 		"helm_update_appversion": "true",
 	}
-	updater.Init(conf)
+
+	require.NoError(updater.Init(conf))
 
 	nVer := "1.2.3"
 	chartPath := "../../test/Chart.yaml"
